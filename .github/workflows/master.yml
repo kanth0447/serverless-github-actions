@@ -19,7 +19,7 @@ jobs:
     - name: install dependencies
       run: yarn install
     ##- name: yarn lint
-    #  run: yarn lint
+    ##  run: yarn lint
     #- name: yarn test
     #  run: yarn test
     - name: generate
