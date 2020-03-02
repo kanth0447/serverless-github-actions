@@ -18,10 +18,10 @@ jobs:
         node-version: 12.x
     - name: install dependencies
       run: yarn install
-    - name: yarn lint
-      run: yarn lint
-    - name: yarn test
-      run: yarn test
+    #- name: yarn lint
+    #  run: yarn lint
+    #- name: yarn test
+    #  run: yarn test
     - name: generate
       run: yarn generate
     - name: serverless deploy
