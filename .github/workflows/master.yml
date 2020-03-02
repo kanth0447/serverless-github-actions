@@ -18,7 +18,7 @@ jobs:
         node-version: 12.x
     - name: install dependencies
       run: yarn install
-    #- name: yarn lint
+    ##- name: yarn lint
     #  run: yarn lint
     #- name: yarn test
     #  run: yarn test
